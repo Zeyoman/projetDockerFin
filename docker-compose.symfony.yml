@@ -1,4 +1,4 @@
-version: '3.8'
+version: "3.8"
 
 services:
   php:
@@ -27,3 +27,5 @@ services:
 networks:
   symfony_network:
     driver: bridge
+  db_network:
+    external: true
